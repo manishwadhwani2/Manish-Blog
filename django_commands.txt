@@ -1,0 +1,11 @@
+## creating migration from model
+
+$ python manage.py makemigrations
+
+## see the migration that will be run
+
+$ python manage.py sqlmigrate blog 0001
+
+## running the migration
+
+$ python manage.py migrate 
